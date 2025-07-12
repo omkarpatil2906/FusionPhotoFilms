@@ -91,8 +91,16 @@ function Footer() {
                     <p className="text-[10px] lg:text-base text-center text-gray-400 font-montserrat">
                         &copy; 2024 Fusion Photo &amp; Films. Capturing memories that last a lifetime.
                     </p>
-                    <p className="text-[8px] lg:text-xs  text-center text-gray-400 font-montserrat">
-                        Designed & Developed by Omkar.
+                    <p className="text-[9px] lg:text-xs text-center text-gray-400 font-montserrat">
+                        Designed & Developed by{" "}
+                        <a
+                            href="https://lifofytech.netlify.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#009aa0] transition-colors duration-300 underline"
+                        >
+                            LifoFy Tech
+                        </a>
                     </p>
                 </div>
 
